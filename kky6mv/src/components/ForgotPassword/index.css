@@ -1,0 +1,198 @@
+.jobby-app-containerf {
+  background-image: url('https://thumbs.dreamstime.com/b/machine-learning-hand-robot-touching-binary-data-futuristic-artificial-intelligence-ai-deep-brain-representing-algorithm-154741982.jpg');
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  background-size: cover;
+}
+.error-msgf {
+  color: #ff0b37;
+  font-size: large;
+}
+
+.cardf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(205, 174, 205, 0.3);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 2px 2px grey;
+  height: 530px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+}
+.website-logof {
+  width: 70px;
+  height:40px;
+  margin-bottom: 25px;
+  border-radius:50px;
+}
+.form-containerf {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.heading-loginf {
+  color: white;
+}
+.input-containerf {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.login-buttonf {
+  background-color: #4f46e5;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  color: #fff;
+
+  cursor: pointer;
+}
+.signup-paraf {
+  float: right;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.labelf {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.user-input1f {
+  background: transparent;
+  border: 1px solid white;
+  width: 350px;
+  border-radius: 5px;
+  padding: 12px;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+.forgot-password-msgf {
+  margin-top: 10px;
+  font-size: 14px;
+  
+}
+
+.forgot-password-msgf a {
+  color: white; /* Updated link color to red */
+  text-decoration: none;
+}
+
+.forgot-password-msgf a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.error-msgf {
+  align-self: start;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+.user-input1f::placeholder {
+  color: white;
+}
+.signuppf {
+  display: flex;
+  justify-content: center;
+  justify-content: right;
+}
+.nothavef {
+  color: #fff;
+  font-weight: 500;
+  padding: 5px;
+}
+.success-msgf{
+  color:green;
+  font-weight:bold
+}
+@media (max-width: 767px) {
+  .jobby-app-containerf {
+    background-image: url('https://img.freepik.com/free-photo/3d-technology-background-with-robot-design_1048-10658.jpg?w=360&t=st=1699423740~exp=1699424340~hmac=d06b63424d0e1bcffbdf500c0c0dbc6ca85988d1d81db192f86199141e2ec642');
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-size: cover;
+    height: 100vh;
+  }
+  .cardf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(205, 174, 205, 0.3);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px grey;
+    height: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  .signup-paraf {
+    float: right;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .user-input1f {
+    background: transparent;
+    border: 1px solid white;
+    width: 250px;
+    border-radius: 5px;
+    padding: 12px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+  }
+  .website-logof {
+    width: 110px;
+    margin-bottom: -5px;
+  }
+  .form-containerf {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .heading-loginf {
+    color: white;
+    font-size: 32px;
+  }
+  .nothavef {
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}

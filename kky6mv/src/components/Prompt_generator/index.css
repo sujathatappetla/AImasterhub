@@ -1,0 +1,66 @@
+.app-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #3498db, #e74c3c);
+
+  padding: 30px;
+}
+.box {
+  border: solid #ffffff 1px;
+  border-radius: 20px;
+
+  height: 250px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 350px;
+  height: 220px;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+.info-box {
+  margin-right: 100px;
+  margin-left: 50px;
+}
+.header {
+  font-size: 42px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.para {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button {
+  background-color: blueviolet;
+  width: 250px;
+  height: 60px;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 32px;
+  border: solid 1px black;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.button-explore {
+  margin-top: 10px;
+  background-color: blueviolet;
+  width: 250px;
+  height: 60px;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 32px;
+  border: solid 1px black;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}

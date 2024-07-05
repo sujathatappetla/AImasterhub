@@ -1,0 +1,11 @@
+@media (orientation: portrait) {
+  iframe {
+    width: 80%; /* Adjust the width for portrait mode */
+  }
+  .heading {
+    color: red;
+  }
+}
+.containerrrr {
+  text-align: center;
+}

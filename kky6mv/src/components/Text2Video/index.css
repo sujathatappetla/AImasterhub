@@ -1,0 +1,26 @@
+.containerr {
+  text-align: center;
+}
+
+.heading {
+  color: red;
+  margin-bottom: 20px;
+}
+/* Add this to your index.css file */
+.containerr {
+  text-align: center;
+}
+
+iframe {
+  width: 100%; /* Default width */
+}
+
+@media (orientation: portrait) {
+  iframe {
+    width: 80%; /* Adjust the width for portrait mode */
+    height: 100vh;
+  }
+  .heading {
+    color: red;
+  }
+}
